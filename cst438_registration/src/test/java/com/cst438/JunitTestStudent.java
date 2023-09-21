@@ -23,14 +23,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  */
 @SpringBootTest
 @AutoConfigureMockMvc
-public class JunitTestSchedule {
+public class JunitTestStudent {
 
 	@Autowired
 	private MockMvc mvc;
 
 	/*
 	 * add course 40442 to student test@csumb.edu in schedule Fall 2021
-	 * get, post, put , delete
 	 */
 	@Test
 	public void addCourse()  throws Exception {
