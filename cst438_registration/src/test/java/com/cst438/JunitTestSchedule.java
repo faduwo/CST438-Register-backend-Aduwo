@@ -30,6 +30,7 @@ public class JunitTestSchedule {
 
 	/*
 	 * add course 40442 to student test@csumb.edu in schedule Fall 2021
+	 * get, post, put , delete
 	 */
 	@Test
 	public void addCourse()  throws Exception {
